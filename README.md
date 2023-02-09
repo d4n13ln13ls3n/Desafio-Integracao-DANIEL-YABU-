@@ -28,8 +28,8 @@ https://app.hubspot.com/user-guide/23983704?via=home:
 
 5. Acessar o link https://docs.google.com/spreadsheets/d/1lWfM4N7EXb6wyZ6IR0bsXftS_iv3fqA18Ea0dEcrHDg/edit#gid=0 
 para acessar a planilha de testes:
-- Inserir os dados do contato que quer acrescentar aos contatos do Hubspot.
-- Lembrar-se de não inserir um email comercial(Yahoo, Hotmail, Gmail, etc.). 
+> Inserir os dados do contato que quer acrescentar aos contatos do Hubspot.
+> Lembrar-se de não inserir um email comercial(Yahoo, Hotmail, Gmail, etc.). 
 Apenas emails corporativos são válidos para a aplicação.
 - PS: a aplicação funciona também com outras Google Sheets, desde que a estrutura seja a mesma (o mesmo cabeçalho).
 
