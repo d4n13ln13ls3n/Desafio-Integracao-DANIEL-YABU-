@@ -15,23 +15,33 @@ aumentando a eficiência da aplicação.
  ```
  git clone git@github.com:d4n13ln13ls3n/Desafio-Integracao-DANIEL-YABU-.git
  cd Desafio-Integracao-DANIEL-YABU-
+ 
+2. Instale as dependências necessárias através do comando <strong>npm install</strong>.
 
-2. Acessar o link https://app.hubspot.com/ com o login e senha recebidos por email e acessar a aba Contatos em 
+3. O script precisa de duas variáveis de ambiente, ambas enviadas por email:
+- GOOGLE_API_KEY
+- HUBSPOT_API_KEY
+- É possível ainda rodar o APP com as GOOGLE_API_KEY e HUBSPOT_API_KEY de suas contas pessoais.
+
+4. Acessar o link https://app.hubspot.com/ com o login e senha recebidos por email e acessar a aba Contatos em 
 https://app.hubspot.com/user-guide/23983704?via=home:
 
-3. Acessar o link https://docs.google.com/spreadsheets/d/1lWfM4N7EXb6wyZ6IR0bsXftS_iv3fqA18Ea0dEcrHDg/edit#gid=0 
+5. Acessar o link https://docs.google.com/spreadsheets/d/1lWfM4N7EXb6wyZ6IR0bsXftS_iv3fqA18Ea0dEcrHDg/edit#gid=0 
 para acessar a planilha de testes:
 - Inserir os dados do contato que quer acrescentar aos contatos do Hubspot.
 - Lembrar-se de não inserir um email comercial(Yahoo, Hotmail, Gmail, etc.). 
 Apenas emails corporativos são válidos para a aplicação.
 - PS: a aplicação funciona também com outras Google Sheets, desde que a estrutura seja a mesma (o mesmo cabeçalho).
 
-4. - Após realizar o passo 3, rodar o seguinte comando no terminal:
-GOOGLE_API_KEY='chave recebida por email' HUBSPOT_API_KEY='chave recebida por email' node index.js 'id da planilha recebida por email' customers
+6. - Após realizar o passo 3, rodar o seguinte comando no terminal:
+node index.js <spreadsheetId> <sheetName>
+or
+npm start -- <spreadsheetId> <sheetName>
+onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.
 - Observar se os contatos inseridos na Google Sheet aparecem na lista de contatos do Hubspot.
 - Caso não apareçam, atualizar a página ou clicar em outra aba e depois voltar à aba de Contatos.
 
-5. - Fazer logout da conta no Hubspot.
+7. - Fazer logout da conta no Hubspot.
  
 ## 🛸 Principais tecnologias utilizadas / Main technologies used: 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript);
