@@ -37,7 +37,7 @@ Apenas emails corporativos são válidos para a aplicação.
 ```
 node index.js <spreadsheetId> <sheetName>
 ```
-   [^2]: ou
+   <dl><dd>ou</dd></dl>
 ```
 npm start -- <spreadsheetId> <sheetName>
 ```
