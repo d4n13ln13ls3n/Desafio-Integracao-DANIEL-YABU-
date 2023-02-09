@@ -22,7 +22,6 @@ aumentando a eficiência da aplicação.
 3. O script precisa de duas variáveis de ambiente, ambas enviadas por email:
 - GOOGLE_API_KEY
 - HUBSPOT_API_KEY
-- É possível ainda rodar o APP com as GOOGLE_API_KEY e HUBSPOT_API_KEY de suas contas pessoais.
 
 4. Acessar o link https://app.hubspot.com/ com o login e senha recebidos por email e acessar a aba Contatos em 
 https://app.hubspot.com/user-guide/23983704?via=home:
@@ -34,11 +33,11 @@ para acessar a planilha de testes:
 Apenas emails corporativos são válidos para a aplicação.
 - PS: a aplicação funciona também com outras Google Sheets, desde que a estrutura seja a mesma (o mesmo cabeçalho).
 
-6. - Após realizar o passo 3, rodar o seguinte comando no terminal:
+6. Após realizar o passo 3, rodar o seguinte comando no terminal:
 ```
 node index.js <spreadsheetId> <sheetName>
 ```
-ou
+   ou
 ```
 npm start -- <spreadsheetId> <sheetName>
 ```
@@ -46,7 +45,7 @@ onde spreadsheetId é o id da planilha recebida por email e sheetName, na planil
 - Observar se os contatos inseridos na Google Sheet aparecem na lista de contatos do Hubspot.
 - Caso não apareçam, atualizar a página ou clicar em outra aba e depois voltar à aba de Contatos.
 
-7. - Fazer logout da conta no Hubspot.
+7. Fazer logout da conta no Hubspot.
  
 ## 🛸 Principais tecnologias utilizadas / Main technologies used: 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript);
