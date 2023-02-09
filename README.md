@@ -15,6 +15,7 @@ aumentando a eficiência da aplicação.
  ```
  git clone git@github.com:d4n13ln13ls3n/Desafio-Integracao-DANIEL-YABU-.git
  cd Desafio-Integracao-DANIEL-YABU-
+ ```
  
 2. Instale as dependências necessárias através do comando <strong>npm install</strong>.
 
