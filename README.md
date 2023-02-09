@@ -37,10 +37,13 @@ Apenas emails corporativos são válidos para a aplicação.
 ```
 node index.js <spreadsheetId> <sheetName>
 ```
+
    <dl><dd>ou</dd></dl>
+
 ```
 npm start -- <spreadsheetId> <sheetName>
 ```
+
 onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.
 - Observar se os contatos inseridos na Google Sheet aparecem na lista de contatos do Hubspot.
 - Caso não apareçam, atualizar a página ou clicar em outra aba e depois voltar à aba de Contatos.
