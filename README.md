@@ -35,9 +35,13 @@ Apenas emails corporativos são válidos para a aplicação.
 - PS: a aplicação funciona também com outras Google Sheets, desde que a estrutura seja a mesma (o mesmo cabeçalho).
 
 6. - Após realizar o passo 3, rodar o seguinte comando no terminal:
+```
 node index.js <spreadsheetId> <sheetName>
-or
+```
+ou
+```
 npm start -- <spreadsheetId> <sheetName>
+```
 onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.
 - Observar se os contatos inseridos na Google Sheet aparecem na lista de contatos do Hubspot.
 - Caso não apareçam, atualizar a página ou clicar em outra aba e depois voltar à aba de Contatos.
