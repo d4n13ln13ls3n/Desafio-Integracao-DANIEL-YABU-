@@ -44,13 +44,18 @@ node index.js <spreadsheetId> <sheetName>
 npm start -- <spreadsheetId> <sheetName>
 ```
 <dl>
-<dd>onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.</dd>
+<dd>onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.</dd></dl>
+
 - Observar se os contatos inseridos na Google Sheet aparecem na lista de contatos do Hubspot.
 - Caso não apareçam, atualizar a página ou clicar em outra aba e depois voltar à aba de Contatos.
- </dl>
+
 
 7. Fazer logout da conta no Hubspot.
  
-## 🛸 Principais tecnologias utilizadas / Main technologies used: 
+## 🛸 Principais tecnologias utilizadas: 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript);
 - [Node.js](https://nodejs.org/en/);
+
+## Versões utilizadas:
+- Node: v16.14.2
+- NPM: 8.19.2
