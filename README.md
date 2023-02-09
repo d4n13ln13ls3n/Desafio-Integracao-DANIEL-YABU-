@@ -44,9 +44,10 @@ node index.js <spreadsheetId> <sheetName>
 npm start -- <spreadsheetId> <sheetName>
 ```
 <dl>
-<dd>onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.</dd></dl>
+<dd>onde spreadsheetId é o id da planilha recebida por email e sheetName, na planilha exemplo, é 'customers'.</dd>
 - Observar se os contatos inseridos na Google Sheet aparecem na lista de contatos do Hubspot.
 - Caso não apareçam, atualizar a página ou clicar em outra aba e depois voltar à aba de Contatos.
+ </dl>
 
 7. Fazer logout da conta no Hubspot.
  
